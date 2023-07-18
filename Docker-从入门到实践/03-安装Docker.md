@@ -358,8 +358,6 @@ $ sudo sysctl -p
 
 # Linux 离线安装
 
-[TOC]
-
 生产环境中一般都是没有公网资源的，本文介绍如何在生产服务器上离线部署`Docker`
 
 括号内的字母表示该操作需要在哪些服务器上执行
@@ -666,7 +664,7 @@ $ docker run -d -p 80:80 --name webserver nginxv
 
 服务运行后，可以访问 [http://localhost](http://localhost/)，如果看到了 "Welcome to nginx!"，就说明 Docker Desktop for Mac 安装成功了。
 
-![img](./assets/spaces%2F-M5xTVjmK7ax94c8ZQcm%2Fuploads%2Fgit-blob-586293fbc7dfb2c5a22b7ea93ea769be2e428e91%2Finstall-mac-example-nginx.png)
+![img](./assets/spaces%2F-M5xTVjmK7ax94c8ZQcm%2Fuploads%2Fgit-blob-586293fbc7dfb2c5a22b7ea93ea769be2e428e91%2Fimages-mac-example-nginx.png)
 
 要停止 Nginx 服务器并删除执行下面的命令：
 
